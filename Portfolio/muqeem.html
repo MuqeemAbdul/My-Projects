@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muqeem</title>
+    <link rel="stylesheet" href="muqeem.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--header design-->
+     <header class="header">
+        <a href="#" class="logo">SHAH.<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"> <span class="animate" style="--i:2;"></span></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span></a>
+
+        </nav>
+     </header>
+
+     <!-- home section design -->
+     <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Abdul Muqeem</span></h1>
+            <div class="text-animate">
+                <h3>FrontEnd & React Developer</h3>
+                
+            </div>
+            <p>Hi, I'm a possive Front-end React Developer bsed in Hyderabad-Telangan, India.</p>
+            <div class="btn-box">
+                <a href="#" class="btn">Hire Me</a>
+                <a href="#" class="btn">Let's Talk</a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
+        <div class="home-imgHover">
+            <span class="animate home-img" style="--i:7;"></span>
+        </div>
+     </section>
+
+     <!-- about section design -->
+     <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+
+        <div class="about-img">
+            <img src="data:image/jpeg;base64,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" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>FrontEnd Developer</h3>
+            <p>As a junior Front-End Developer. I possess on impressive arsenal skills in <span>HTML</span>, <span>CSS</span> , <span>JAVASCRIPT</span>, <span>REACT</span> and <span> TAILWINDCSS.</span> excel in designing and maintaing responsive websites that offers a smooth user experience. My expertise lies in crafting dynamics, engaging interface through writing clean and optimized code out utilizing cutting-edges development tools and techniques.</p>
+        
+            <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+     </section>
+     <!-- education section design -->
+     <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calendar"></i>2019 - 2020</div>
+                            <h3>SSC - Telangana Model School</h3>
+                            <p>Successfully passes-out with 10 CGPA in 10th.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calendar"></i>2019 - 2020</div>
+                            <h3>Inter(11th,12th) - TMRIES</h3>
+                            <p>Successfully passes-out with 841 score in Intermediate.</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class="bx bxs-calendar"></i>2019 - 2020</div>
+                            <h3>B.Tech - Shadan College of Enginering and Technology.</h3>
+                            <p>Successfully passes-out 1st year with 7 CGPA & currently in 2nd year.</p>
+                        </div>
+                    </div>
+
+                   
+                </div>
+            </div>
+        </div>
+     </section>
+    
+     <!-- skills section design -->
+     <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Codings Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    
+                        <div class="progress">
+                            <h3>CSS<span>80%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                   
+                        <div class="progress">
+                            <h3>JavaScript <span>65%</span></h3>
+                        <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Tailwind(CSS Framework) <span>95%</span></h3>
+                        <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>React Js <span>60%</span></h3>
+                        <div class="bar"><span></span></div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+           </div> 
+        </div>
+    </section>
+     <!-- contact section design -->
+     <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Address" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Mobile Number" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+
+             <div class="textarea-field">
+                <textarea name="" id="" cols="30" placeholder="Your Message" rows="10" required></textarea>
+                <span class="focus"></span>
+             </div>
+             <div class="btn-box btns">
+                  <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+     </section>
+
+     <!-- footer design -->
+     <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Codehal | All Rights Reserved.</p>
+         </div>
+
+         <div class="footer-iconTop">
+            <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+         </div>
+     </footer>
+
+    <!--js link-->
+    <script src="portfolio.js"> </script>
+</body>
+</html>
